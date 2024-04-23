@@ -1,0 +1,8 @@
+{
+    "name": "produit",
+    "prix": 1.13,
+    "property" : {
+      "description": "hello",
+      "calories": 123
+    }
+}

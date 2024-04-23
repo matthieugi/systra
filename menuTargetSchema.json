@@ -1,0 +1,35 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "description": "",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "prix": {
+      "type": "number"
+    },
+    "property": {
+      "type": "object",
+      "properties": {
+        "description": {
+          "type": "string",
+          "minLength": 1
+        },
+        "calories": {
+          "type": "number"
+        }
+      },
+      "required": [
+        "description",
+        "calories"
+      ]
+    }
+  },
+  "required": [
+    "name",
+    "prix",
+    "property"
+  ]
+}
